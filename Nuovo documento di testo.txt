@@ -7,6 +7,10 @@ Casa Automobilistica     Stringa      varchar (20)            NOT NULL
 Anno           	         Data	      year		      NOT NULL
 Modello         	 Stringa      varchar (15)            NOT NULL
 Colore          	 Stringa      varchar (30)            NOT NULL
-Km percorsi		 Numero       Smallint		      NOT NULL
-Prezzo                   Numero       Bigint		      NOT NULL
-Disponibilità     	 Booleano     Tinynt		      NOT NULL
+Km percorsi		 Numero       int		      NOT NULL
+Prezzo                   Numero       float(9,2)	      NOT NULL
+Disponibilità     	 Booleano     Tinyint		      NOT NULL
+Targa			 Stringa      varchar (10)            NOT NULL
+Data immatricolazione    Data	      date	
+Cilindrata               Numero       smallint
+N proprietari		 Numero	      tinyint
